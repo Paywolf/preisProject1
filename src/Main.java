@@ -18,12 +18,18 @@ public class Main {
         var numberOfGrades = grade_list.length;
         System.out.println("You have collected "+numberOfGrades+" grades.");
         //System.out.println(all_grades);
+        int runningCount = 0;
+        int total = 0;
+        for (String name : grade_list) {
+            runningCount = runningCount + 1;
+            total = grade_list[runningCount] + grade_list[runningCount];
 
-        String fileContents = "";
-        while(reader.hasNextLine()); {
-            fileContents = fileContents.concat(scanner.next() + "\n");
-        }
-        System.out.println(fileContents);
+//        String fileContents = "";
+//        while(reader.hasNextLine()); {
+//            fileContents = fileContents.concat(scanner.next() + "\n");
+//        }
+//        Integer.parseInt(fileContents);
+//        System.out.println(fileContents);
 
  //       System.out.println("Your total grade is "+ totalnum );
 //        for (String name : grade_list) {
