@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
-
+//  Assumption: All grades are whole numbers
 
 public class Main {
     public static void main(String[] args)throws IOException {
@@ -61,7 +61,6 @@ public class Main {
 
         } else if (finalScore >= 0 && finalScore <= 59) {
             System.out.println(nameInput+": Your final score is an F");
-
         }
     }
 }
