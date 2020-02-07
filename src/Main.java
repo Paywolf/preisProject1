@@ -1,4 +1,3 @@
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -64,34 +63,5 @@ public class Main {
             System.out.println(nameInput+": Your final score is an F");
 
         }
-
-//  Assumption: All grades whole numbers
-
-        //System.out.println(all_grades);
-     //   int runningCount = 0;
-       // int total = 0;
-//        Integer.parseInt((grade_list));
-//        for (i = 0 : grade_list) {
-//            runningCount = runningCount + 1;
-//            total = grade_list + grade_list[runningCount];
-
-//        String fileContents = "";
-//        while(reader.hasNextLine()); {
-//            fileContents = fileContents.concat(scanner.next() + "\n");
-//        }
-//        Integer.parseInt(fileContents);
-//        System.out.println(fileContents);
-
- //       System.out.println("Your total grade is "+ totalnum );
-//        for (String name : grade_list) {
-//            int runningCount = 0;
-//            runningCount = runningCount + 1;
-//            if (name.equals("fgdzyjsyt")) { // equals vs ==, == not same place in memory
-//                System.out.println(name);
-//
-//            }
-
-
     }
-
 }
